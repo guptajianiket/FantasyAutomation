@@ -52,8 +52,10 @@ class fe_Objects:
     '''voot fantasy league icon'''
 
     closedetails = "//*[@id='user-contact-info-popup']/button/span"
-    gotomyleague = "//*[@id='wrapper']/div/app-create-team/div[2]/div/div/div/button[1]"
+    '''the cross icon on the user detail pop up which appears in the my league page'''
 
+    gotomyleague = "//*[@id='wrapper']/div/app-create-team/div[2]/div/div/div/button[1]"
+    '''button which appers on the already create team pop up'''
 
     back2 = "//*[@id='wrapper']/div/app-create-team/div[2]/div/div/div/button[2]"
     '''back button in already team created pop up message'''
@@ -63,7 +65,7 @@ class fe_Objects:
     '''Header Item'''
 
 
-    createteam3 = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[2]/div/div/div/div[3]/a"
+    createteam3 = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[3]/div/div/div/div[3]/a"
     '''create team from my league section'''
 
 
@@ -128,6 +130,18 @@ class fe_Objects:
     contestant13info = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/swiper/div/div[1]/div[13]/div"
     contestant14info = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/swiper/div/div[1]/div[14]/div"
 
+    # user detail pop up
+
+    udnameinput = "//*[@id='user-contact-info-popup']/div/form/div/div[1]/input"
+    '''Name input field of the user detail pop up. Cannot be left blank'''
+    udmobileinout = "//*[@id='user-contact-info-popup']/div/form/div/div[3]/input"
+    '''Number field in the user detail pop up. Should be of atleast 10 digits and cannot be left blank.'''
+    udemailaddress = "//*[@id='user-contact-info-popup']/div/form/div/div[6]/input"
+    '''Email address field in the user detail pop up. The email should be in proper format and cannot be left blank.'''
+    udcity = "//*[@id='user-contact-info-popup']/div/form/div/div[9]/input"
+    '''City in user detail pop up. Cannot be left blank.'''
+    udsubmitbutton = "//*[@id='user-contact-info-popup']/div/div/button"
+    '''Submit button in user detail pop up. '''
 
 
 
@@ -195,6 +209,41 @@ class fe_Sections:
     totalscoreinfosx = "/html/body/modal-container/div/div/div"
     '''Total score and contestant score pop up info section which appears after clicking on the league score in my legaue page'''
 
+    captaintagsx = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/swiper/div/div[1]/div[1]/div/div/span"
+    '''The captain icon section present in the first contestant'''
+
+    rank1sx = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[2]/span"
+    '''Rank shown in my league page'''
+
+    rank2sx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[1]/div[1]/span[1]"
+    '''Rank shown in Leaderboard page'''
+
+    pointssx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[1]/div[2]"
+    '''points of the user in the leader board page'''
+
+    username1sx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[1]/div[1]/span[3]"
+    '''User name in leaderboard page'''
+
+    username2sx = "//*[@id='wrapper']/div/app-profile/section/div/div[2]/div/div[2]/div[1]/div/h3"
+    '''user name in the user profile page'''
+
+    DOBsx = "//*[@id='wrapper']/div/app-profile/section/div/div[2]/div/div[2]/div[1]/div/h3"
+    '''user dob in user profile section'''
+
+    useremailsx = "//*[@id='wrapper']/div/app-profile/section/div/div[2]/div/div[2]/div[1]/div/h3"
+    '''user email in user profile section'''
+
+    no_of_joined_league = "//*[@id='wrapper']/div/app-profile/section/div/div[2]/div/div[2]/div[4]/div/h3"
+    '''number of joined league in user profile page'''
+
+    tnc_sx = "//*[@id='wrapper']/div/app-terms-and-condition/section/div[2]/div/div[1]/div"
+    '''TnC box where the tnc will be visible'''
+
+    alreadycreateamteam_sx = "//*[@id='wrapper']/div/app-create-team/div[2]/div/div"
+    '''This is the pop up section which appears when the user land on create team page after creating the team'''
+
+    alreadycreatedteamtxt_sx = "//*[@id='wrapper']/div/app-create-team/div[2]/div/div/h3"
+    '''the message which appears on the already crteated team pop up'''
 
     contenstanttray1 = "//*[@id='wrapper']/div/app-create-team/section[2]/div/div/div[2]/table/tbody/tr[2]"
     contenstanttray2 = "//*[@id='wrapper']/div/app-create-team/section[2]/div/div/div[2]/table/tbody/tr[3]"
@@ -242,6 +291,38 @@ class fe_Sections:
     contestant13infosx = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/swiper/div/div[1]/div[13]"
     contestant14infosx = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/swiper/div/div[1]/div[14]"
 
+    # users tray in leaderbaord
+
+    user1scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[2]"
+    user2scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[3]"
+    user3scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[4]"
+    user4scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[5]"
+    user5scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[6]"
+    user6scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[7]"
+    user7scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[8]"
+    user8scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[9]"
+    user9scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[10]"
+    user10scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[11]"
+    user11scoreinfosx = "//*[@id='wrapper']/div/app-leaderboard/section/div/div[2]/div[3]/div/div[2]/div[12]"
+
+    # userdetail pop up
+
+    userdetailpopupsx = "/html/body/modal-container/div/div"
+    '''The pop up which appears when users data is not complete in the DB.'''
+
+    udnamevalidationsx = "//*[@id='user-contact-info-popup']/div/form/div/div[2]/div"
+    '''name field blank error message section of user detail pop up.'''
+
+    udmobilenumbervalidationsx = "//*[@id='user-contact-info-popup']/div/form/div/div[4]/div"
+    '''mobile number field blank error message section of user detail pop up.'''
+
+    udemailaddressvalidtionsx = "//*[@id='user-contact-info-popup']/div/form/div/div[7]/div"
+    '''email address field blank or incorect format error message section of user detail pop up.'''
+
+    udcityvalidationsx = "//*[@id='user-contact-info-popup']/div/form/div/div[9]/input"
+    '''city field blank or incorrect format error message section of user detail pop up.'''
+
+
 class fe_texts:
     leaderboardvalidationtxt = "Please create team to see the leaderboard !!!"
     bonusvalidationtxt = "No bonus has been rolled out currently. Please come back to this space later to claim bonus"
@@ -252,5 +333,8 @@ class fe_texts:
     userprofile_url = "https://fantasyapp.voot.com/common/profile"
     teamnamerequiredtxt ="Team name is required"
     teampreview_url = "https://fantasyapp.voot.com/preview-team"
+    termsandcondtions_url = "https://fantasyapp.voot.com/terms-and-conditions"
+    alreadycreateteam_txt = "You Have already created the team."
+
 
 

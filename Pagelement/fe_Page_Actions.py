@@ -2,7 +2,9 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-
+from selenium.common.exceptions import NoSuchElementException
+import allure
+from allure_commons.types import AttachmentType
 
 
 class fe_actions:
@@ -19,15 +21,14 @@ class fe_actions:
                             f"//*[@id='wrapper']/div/app-create-team/section[2]/div"
                             f"/div/div[2]/table/tbody/tr[{i}]/td[3]/div/div/a").click()
 
-    def choosecaptain(self,contestantnumber,selectioncheck):
-        '''selection check 1 means yes and any other value will initiate the check. It will just choose the captain'''
-        captain = contestantnumber + 2
+    def captain_selection(self,contestant_num,selection_check):
+        '''selection check 1 means yes and any other value will not initiate the check. It will just choose the captain'''
+        captain = contestant_num + 1
         self.driver.find_element(By.XPATH,"//*[@id='wrapper']/div/app-create-team/"
                                           f"section[2]/div/div/div[3]/table/tbody/tr[{captain}]/td[3]/a").click()
 
-        if selectioncheck == 1:
-            sslcheck = self.driver.find_element(By.XPATH, "//*[@id='wrapper']/div/app-create-team/"
-                                               f"section[2]/div/div/div[3]/table/tbody/tr[{captain}]/td[3]/a").is_selected()
+        if selection_check == 1:
+            sslcheck = self.driver.find_element(By.CLASS_NAME, "sel-captain.selected").is_enabled()
             if sslcheck == True:
                 assert True
             else:
@@ -52,7 +53,21 @@ class fe_actions:
         for i in range(start_range,end_range):
             if self.driver.find_element(By.XPATH,f"//*[@id='wrapper']/div/app-create-team/section[2]/div/div/div"
                                                  f"[2]/table/tbody/tr[{i}]/td[3]/div/div/a/span[2]").is_displayed() == True:
-                assert True
+                return True
             else:
-                self.driver.save_screenshot('Screenshots/ss7.png')
+                return False
+
+    def checkforaddedcontenstant(self,contestant_number,start_range):
+        '''To check whether in the my league page, total no. added contestants is correct or not.
+        This will be checked by counting the number of trays with the no. of contestant added.'''
+        end_range = contestant_number + 1
+        for i in range(start_range,end_range):
+            try:
+                self.driver.find_element(By.XPATH,"//*[@id='wrapper']/div/app-my-league/section/div"
+                                                 "/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/swiper"
+                                                 f"/div/div[1]/div[{i}]")
+            except NoSuchElementException:
                 assert False
+            else:
+                assert True
+
