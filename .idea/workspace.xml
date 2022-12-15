@@ -1,16 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f4958aa-7436-4388-92c8-680a4067f1d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rough/Rough_set_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pagelement/fe_Page_Actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pagelement/fe_Page_Actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pagelement/fe_Page_Objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pagelement/fe_Page_Objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rough/Rough set 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rough/Rough_set_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rough/Rough_set_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/ss5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/ss5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/Web_Basic_Sanity_Pilot.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/Web_Basic_Sanity_Pilot.py" afterDir="false" />
+    <list default="true" id="3f4958aa-7436-4388-92c8-680a4067f1d4" name="Changes" comment="Fantasy Automation Update Major with allure reports.">
+      <change afterPath="$PROJECT_DIR$/Reports/02568efd-5bbc-4d3c-bc9f-077e04e14c92-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/0d2d6b26-f3f2-4fd8-999a-60e74c123757-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/0d7d9d60-76de-47d4-8343-0e0e745c5e2b-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/191a7518-483b-4056-99a5-fa5989e654d1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/1ce20668-8167-42bf-8eae-52bbea8261bd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/262b4741-6225-4dd6-9289-776b6e4930d0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/29a83e51-58b8-40eb-b275-ac9eb6acf3e6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/2bff6124-542d-4442-8a30-3cbaac8f4967-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/2d0c70d9-5cee-4180-bea9-df16a60f99e8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/36edcbcd-f4ee-421f-98c4-414aead9001c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/3dd48fef-8d88-4d56-89e7-b4121ec66f0f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/3e803556-6008-4d8e-8c3d-7c73461871d7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/3fa24e09-2dbe-40c5-87d0-32cc3e2742ad-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/408bdb41-5cd5-4560-b19c-a4342f8fbf23-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/4a4286ea-5612-4b95-af69-935e08c7a205-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/4f03dc81-e8f9-436b-87d4-daf299ad819d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/592d9cc8-261b-49fc-a7cf-7b54da195993-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/5d2a6d37-26a5-41e8-82ca-71fc8c4ec6d4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/5fc767fa-645e-4358-a953-099391b4689f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/6ef4ae5d-98ad-4f48-9333-cc7aa10a63c3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/7fef8a97-e4ce-45f2-9acc-c65988c1a836-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/80455030-621b-4dc4-9a97-757392463caf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/82dbec29-9986-4cd9-aa4b-88ffbded01ea-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/87f10cfa-f679-4908-b716-7f2a97795770-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/888da3ca-76c0-4280-a97c-59395524ea5f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/89bf7e2f-90d4-4a4a-94f5-428c19a8a01b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/89feed6a-08ac-40f0-8c7b-aa21889acad7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/8c7240f5-4009-4b0f-b2c2-01c7bf00fdf9-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/8c99fe64-a5e6-49ec-bab6-5916c66905bd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/8fbe6073-8de7-4a94-9bb3-ac456c21727f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/90156e27-2dc1-44a5-b3ba-6b69dbd29ce5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/9189c506-dee4-4265-9c81-eefd2813bb92-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/98678da7-7820-4fc6-8f12-037f476cecfe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/9a08c9eb-8c05-4567-be7e-0359cc609651-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/9be8663a-99c8-46ff-957f-65f4eef36e0e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/a3d3e556-1e08-4409-a917-0c4e25b71987-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/a461542b-f928-403b-8bb3-870e7c4ee1e2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/a93400c0-57a4-41f3-a3cb-49eb1e099092-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/a9c20c7b-cd49-4151-baf2-0a90682f61af-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/babd37c2-cab3-4b0c-b078-150b4872e295-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/bbb08468-d87f-449f-860f-ee6ecd555b13-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/bc282b88-1a60-4f77-a1cf-d2be4ba7cf6f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/bfbe1266-bf55-4b04-9b6d-eb08fcecbaf8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/c3de8b3d-df9d-4dce-94c1-f579f5a8aec1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/c677d152-13ef-4de8-9d83-727762a1d6a1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/c8cc267f-8e02-47fe-8d3a-b2f7111611f3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/cd37d611-9958-4b9b-82b7-049b129a098c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/cd8ebeb3-67db-498d-bd6a-59fb224adaf4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/d3667d9b-9e28-49fe-b344-38c81655564e-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/d50a699d-caf9-4e5c-8cff-692a6634b2f9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/dfbcc92f-0a5c-4261-9f66-2cd860e7fb3a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/e329de24-b040-4026-9368-960990e40152-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/e44d5873-e338-4604-bc89-ef470d318c3f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/e73047be-1665-4690-ad30-100e320cb4d5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/f42f7650-652e-4965-9c79-7404c0abd20e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/f5e4fee9-ea88-40c2-bf63-725a7e749722-result.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +257,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660646504779</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fantasy Automation Update Major with allure reports.">
+      <created>1671105803816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671105803816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +277,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fantasy Automation Update Major with allure reports." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fantasy Automation Update Major with allure reports." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
