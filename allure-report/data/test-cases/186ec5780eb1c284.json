@@ -1,0 +1,155 @@
+{
+  "uid" : "186ec5780eb1c284",
+  "name" : "Create Team Button",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_009",
+  "historyId" : "168c044a963a7f6e1641b01a14534d39",
+  "time" : {
+    "start" : 1672227480324,
+    "stop" : 1672227482440,
+    "duration" : 2116
+  },
+  "description" : "To check the functionality of create team button when required number contestants are not added.",
+  "descriptionHtml" : "<p>To check the functionality of create team button when required number contestants are not added.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To check the functionality of create team button when required number contestants are not added.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Click  on the create team button. 2. Check for an Web Driver Exception error since button is disabled.",
+      "time" : {
+        "start" : 1672227480324,
+        "stop" : 1672227482440,
+        "duration" : 2116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "create team"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "c1f0167bba4bad23",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c1f0167bba4bad23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062877904,
+          "stop" : 1672062880004,
+          "duration" : 2100
+        }
+      }, {
+        "uid" : "8057be2f1865f894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060632310,
+          "stop" : 1672060634386,
+          "duration" : 2076
+        }
+      }, {
+        "uid" : "dd17be4c89200879",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879729266,
+          "stop" : 1671879731401,
+          "duration" : 2135
+        }
+      }, {
+        "uid" : "fe3707b43dc31d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671457093957,
+          "stop" : 1671457094973,
+          "duration" : 1016
+        }
+      } ]
+    },
+    "tags" : [ "web", "sanity", "user detail popup", "create team" ]
+  },
+  "source" : "186ec5780eb1c284.json",
+  "parameterValues" : [ ]
+}

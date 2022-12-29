@@ -1,0 +1,6 @@
+[ {
+  "name" : "Aniket Gupta",
+  "buildName" : "Web Applicattion Sanity Test",
+  "reportName" : "Demo allure report",
+  "reportUrl" : "http://example.org/build#13/AllureReport"
+} ]

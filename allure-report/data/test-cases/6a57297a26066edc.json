@@ -1,0 +1,147 @@
+{
+  "uid" : "6a57297a26066edc",
+  "name" : "Create Team Button",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_014",
+  "historyId" : "9fc908128dd18d39eaa67c6ffa2c3002",
+  "time" : {
+    "start" : 1672227510108,
+    "stop" : 1672227526223,
+    "duration" : 16115
+  },
+  "description" : "To check the create team button functionality from my league section.",
+  "descriptionHtml" : "<p>To check the create team button functionality from my league section.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To check the create team button functionality from my league section.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Click on the create team button in league tray. 2. Get the current url. 3. Compare the current url with the saved create team url in the script. ",
+      "time" : {
+        "start" : 1672227510108,
+        "stop" : 1672227526223,
+        "duration" : 16115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "my league"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "81523243ee99a08e",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/81523243ee99a08e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062907966,
+          "stop" : 1672062924057,
+          "duration" : 16091
+        }
+      }, {
+        "uid" : "f29e24dd4c3df298",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060662004,
+          "stop" : 1672060678117,
+          "duration" : 16113
+        }
+      }, {
+        "uid" : "9d2bc90ff376e1d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879756394,
+          "stop" : 1671879772546,
+          "duration" : 16152
+        }
+      } ]
+    },
+    "tags" : [ "my league", "web", "sanity", "user detail popup" ]
+  },
+  "source" : "6a57297a26066edc.json",
+  "parameterValues" : [ ]
+}

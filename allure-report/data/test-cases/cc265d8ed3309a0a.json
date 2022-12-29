@@ -1,0 +1,156 @@
+{
+  "uid" : "cc265d8ed3309a0a",
+  "name" : "Header Element",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_003",
+  "historyId" : "c27f4dd2b7e9465e5c0fd0b2c9bd125c",
+  "time" : {
+    "start" : 1672227474877,
+    "stop" : 1672227474935,
+    "duration" : 58
+  },
+  "description" : "To check whether the logo and header menu is visible or not.",
+  "descriptionHtml" : "<p>To check whether the logo and header menu is visible or not.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To check whether the logo and header menu is visible or not.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Check the presence of Voot Fantasy Logo element in header. 2. Check the presence of Create Team option element in header. 3. Check the presence of My League option element in header. 4. Check the presence of Leaderboard option element in header. 5. Check the presence of bonus point option element in header. 6. Check the presence of profile icon option element in header. 7. Check the presence of create team section in create team page.",
+      "time" : {
+        "start" : 1672227474877,
+        "stop" : 1672227474935,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "tag",
+    "value" : "coach card"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "aa42cca8b8e4d51e",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/aa42cca8b8e4d51e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062872415,
+          "stop" : 1672062872486,
+          "duration" : 71
+        }
+      }, {
+        "uid" : "ee5bdbd2a349562c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060626790,
+          "stop" : 1672060626874,
+          "duration" : 84
+        }
+      }, {
+        "uid" : "1b6b9fd154f07e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879723414,
+          "stop" : 1671879723528,
+          "duration" : 114
+        }
+      }, {
+        "uid" : "51b0f6a5cec25154",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+        "time" : {
+          "start" : 1671457091663,
+          "stop" : 1671457091664,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "coach card", "web", "sanity", "user detail popup" ]
+  },
+  "source" : "cc265d8ed3309a0a.json",
+  "parameterValues" : [ ]
+}

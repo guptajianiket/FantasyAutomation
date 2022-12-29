@@ -1,0 +1,147 @@
+{
+  "uid" : "676f5d5c74b2e96b",
+  "name" : "Leaderboard Page Message",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_016",
+  "historyId" : "d90538050759fb3289d8dc95909395a5",
+  "time" : {
+    "start" : 1672227527316,
+    "stop" : 1672227527335,
+    "duration" : 19
+  },
+  "description" : "To validate the default message displayed in the leaderboard page before creating the team.",
+  "descriptionHtml" : "<p>To validate the default message displayed in the leaderboard page before creating the team.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To validate the default message displayed in the leaderboard page before creating the team.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Get the text from the page.2. Compare the current text with the saved default message text ofleaderboard page in the script. ",
+      "time" : {
+        "start" : 1672227527316,
+        "stop" : 1672227527335,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "tag",
+    "value" : "leaderboard"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "b2c6a77ff0365e43",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b2c6a77ff0365e43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062925135,
+          "stop" : 1672062925154,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "6c65ba36f053a600",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060679176,
+          "stop" : 1672060679196,
+          "duration" : 20
+        }
+      }, {
+        "uid" : "2ac400d2afdd42e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879773699,
+          "stop" : 1671879773746,
+          "duration" : 47
+        }
+      } ]
+    },
+    "tags" : [ "leaderboard", "web", "sanity", "user detail popup" ]
+  },
+  "source" : "676f5d5c74b2e96b.json",
+  "parameterValues" : [ ]
+}

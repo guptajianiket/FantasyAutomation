@@ -1,0 +1,25 @@
+[ {
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 181480
+  }
+}, {
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 180832
+  }
+}, {
+  "data" : {
+    "duration" : 234144
+  }
+}, {
+  "data" : {
+    "duration" : 192600
+  }
+}, {
+  "data" : {
+    "duration" : 41128
+  }
+} ]

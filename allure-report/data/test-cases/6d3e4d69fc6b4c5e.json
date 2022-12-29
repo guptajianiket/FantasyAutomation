@@ -1,0 +1,151 @@
+{
+  "uid" : "6d3e4d69fc6b4c5e",
+  "name" : "Check For User Detail Pop Up",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_052",
+  "historyId" : "965482a0d226b235b6e4faca8661d396",
+  "time" : {
+    "start" : 1672227598443,
+    "stop" : 1672227599799,
+    "duration" : 1356
+  },
+  "description" : "To check for users who have already filled the user detail pop up, whether coming back to\n        my league page shows the user detail pop up or not. ",
+  "descriptionHtml" : "<p>To check for users who have already filled the user detail pop up, whether coming back to<br />\nmy league page shows the user detail pop up or not.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <testCases.Web_Basic_Sanity_Pilot.Test_Websanity object at 0x00000222A1169100>\n\n    @allure.title(\"Check For User Detail Pop Up\")\n    @allure.testcase(testcasedocument, \"Test Case Document\")\n    @allure.tag(\"sanity\", \"user detail popup\", \"web\", \"user detail\")\n    @allure.link(testcasereport,\n                 link_type=\"hyperlink\", name=\"Test Case Report\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @allure.step(\"1. Check for the presence of User Detail Pop Up Container. \"\n                 \"2. In Case yes, enter all the required data and click on continue. \")\n    def test_052(self):\n        \"\"\"To check for users who have already filled the user detail pop up, whether coming back to\n        my league page shows the user detail pop up or not. \"\"\"\n        # this will be checked by checking the presence of the user detail pop up container element.\n        #\n        try:\n            self.driver.find_element(By.XPATH,fe_Sections.userdetailpopupsx)\n        except WebDriverException:\n            assert True\n        else:\n            fe_actions.enteruserdetail(self,self.Name,self.Email,self.Mobile,self.City)\n>           assert False\nE           assert False\n\ntestCases\\Web_Basic_Sanity_Pilot.py:891: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To check for users who have already filled the user detail pop up, whether coming back to\n        my league page shows the user detail pop up or not. ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <testCases.Web_Basic_Sanity_Pilot.Test_Websanity object at 0x00000222A1169100>\n\n    @allure.title(\"Check For User Detail Pop Up\")\n    @allure.testcase(testcasedocument, \"Test Case Document\")\n    @allure.tag(\"sanity\", \"user detail popup\", \"web\", \"user detail\")\n    @allure.link(testcasereport,\n                 link_type=\"hyperlink\", name=\"Test Case Report\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @allure.step(\"1. Check for the presence of User Detail Pop Up Container. \"\n                 \"2. In Case yes, enter all the required data and click on continue. \")\n    def test_052(self):\n        \"\"\"To check for users who have already filled the user detail pop up, whether coming back to\n        my league page shows the user detail pop up or not. \"\"\"\n        # this will be checked by checking the presence of the user detail pop up container element.\n        #\n        try:\n            self.driver.find_element(By.XPATH,fe_Sections.userdetailpopupsx)\n        except WebDriverException:\n            assert True\n        else:\n            fe_actions.enteruserdetail(self,self.Name,self.Email,self.Mobile,self.City)\n>           assert False\nE           assert False\n\ntestCases\\Web_Basic_Sanity_Pilot.py:891: AssertionError",
+    "steps" : [ {
+      "name" : "1. Check for the presence of User Detail Pop Up Container. 2. In Case yes, enter all the required data and click on continue. ",
+      "time" : {
+        "start" : 1672227598443,
+        "stop" : 1672227599788,
+        "duration" : 1345
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False\n",
+      "statusTrace" : "  File \"c:\\users\\aniket.gupta\\pycharmprojects\\fantasyautomation\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\aniket.gupta\\PycharmProjects\\FantasyAutomation\\testCases\\Web_Basic_Sanity_Pilot.py\", line 891, in test_052\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "user detail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e0bee51766331b7b",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e0bee51766331b7b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1672062996291,
+          "stop" : 1672062997639,
+          "duration" : 1348
+        }
+      }, {
+        "uid" : "128bb2fc94a3f7da",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1672060750318,
+          "stop" : 1672060751593,
+          "duration" : 1275
+        }
+      } ]
+    },
+    "tags" : [ "web", "sanity", "user detail popup", "user detail" ]
+  },
+  "source" : "6d3e4d69fc6b4c5e.json",
+  "parameterValues" : [ ]
+}

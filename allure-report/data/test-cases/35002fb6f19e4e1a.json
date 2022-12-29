@@ -1,0 +1,147 @@
+{
+  "uid" : "35002fb6f19e4e1a",
+  "name" : "Choose Captain Section",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_021",
+  "historyId" : "c195582bc4dc05201d89110870c0c5bb",
+  "time" : {
+    "start" : 1672227542115,
+    "stop" : 1672227542234,
+    "duration" : 119
+  },
+  "description" : " To verify whether, all added contestants are visible or not.",
+  "descriptionHtml" : "<p>To verify whether, all added contestants are visible or not.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : " To verify whether, all added contestants are visible or not.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Check for the contestant tray, there should be ten. ",
+      "time" : {
+        "start" : 1672227542116,
+        "stop" : 1672227542234,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "create team"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e7fb71100288fe63",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e7fb71100288fe63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062939943,
+          "stop" : 1672062940059,
+          "duration" : 116
+        }
+      }, {
+        "uid" : "745b8527eab6dbb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060693915,
+          "stop" : 1672060694014,
+          "duration" : 99
+        }
+      }, {
+        "uid" : "683163860dee1cf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879789045,
+          "stop" : 1671879789245,
+          "duration" : 200
+        }
+      } ]
+    },
+    "tags" : [ "web", "sanity", "user detail popup", "create team" ]
+  },
+  "source" : "35002fb6f19e4e1a.json",
+  "parameterValues" : [ ]
+}

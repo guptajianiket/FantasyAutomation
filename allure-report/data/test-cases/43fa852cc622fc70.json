@@ -1,0 +1,147 @@
+{
+  "uid" : "43fa852cc622fc70",
+  "name" : "Enter Team Name Pop up",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_028",
+  "historyId" : "fd7e623f064882d2ddd91e817cbf97c1",
+  "time" : {
+    "start" : 1672227574400,
+    "stop" : 1672227576506,
+    "duration" : 2106
+  },
+  "description" : "To verify the submit button functionality of name your team pop up.",
+  "descriptionHtml" : "<p>To verify the submit button functionality of name your team pop up.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To verify the submit button functionality of name your team pop up.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Enter the team name. 2. Click on start playing. 3. Check for save team pop up container. ",
+      "time" : {
+        "start" : 1672227574400,
+        "stop" : 1672227576506,
+        "duration" : 2106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "tag",
+    "value" : "create team"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7c49fd30f61fb4aa",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7c49fd30f61fb4aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062972218,
+          "stop" : 1672062974348,
+          "duration" : 2130
+        }
+      }, {
+        "uid" : "f7c8ee73f321fe69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060726271,
+          "stop" : 1672060728381,
+          "duration" : 2110
+        }
+      }, {
+        "uid" : "1f5527e37040a5a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879821882,
+          "stop" : 1671879824060,
+          "duration" : 2178
+        }
+      } ]
+    },
+    "tags" : [ "web", "sanity", "user detail popup", "create team" ]
+  },
+  "source" : "43fa852cc622fc70.json",
+  "parameterValues" : [ ]
+}

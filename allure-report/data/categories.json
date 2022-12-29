@@ -1,0 +1,127 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False",
+      "children" : [ {
+        "name" : "Check For User Detail Pop Up",
+        "uid" : "6d3e4d69fc6b4c5e",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1672227598443,
+          "stop" : 1672227599799,
+          "duration" : 1356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "League Tray Captain",
+        "uid" : "182d806023b131da",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1672227611541,
+          "stop" : 1672227632023,
+          "duration" : 20482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User Email",
+        "uid" : "805bb2ffcc7ad419",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1672227633821,
+          "stop" : 1672227634342,
+          "duration" : 521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User League Joined Status",
+        "uid" : "987f2c43678d08d5",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1672227634395,
+          "stop" : 1672227634778,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d89788b03808d3beec6ddf8e7d75f3d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/ because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/' is not a valid XPath expression.\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x009AACD3+2075859]\n\tOrdinal0 [0x0093EE61+1633889]\n\tOrdinal0 [0x0083B7BD+571325]\n\tOrdinal0 [0x0083E374+582516]\n\tOrdinal0 [0x0083E225+582181]\n\tOrdinal0 [0x0083E4C0+582848]\n\tOrdinal0 [0x0086A9A2+764322]\n\tOrdinal0 [0x0086AE1B+765467]\n\tOrdinal0 [0x0089D0F2+970994]\n\tOrdinal0 [0x00887364+881508]\n\tOrdinal0 [0x0089B56A+963946]\n\tOrdinal0 [0x00887136+880950]\n\tOrdinal0 [0x0085FEFD+720637]\n\tOrdinal0 [0x00860F3F+724799]\n\tGetHandleVerifier [0x00C5EED2+2769538]\n\tGetHandleVerifier [0x00C50D95+2711877]\n\tGetHandleVerifier [0x00A3A03A+521194]\n\tGetHandleVerifier [0x00A38DA0+516432]\n\tOrdinal0 [0x0094682C+1665068]\n\tOrdinal0 [0x0094B128+1683752]\n\tOrdinal0 [0x0094B215+1683989]\n\tOrdinal0 [0x00956484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "children" : [ {
+        "name" : "League Tray Contestants",
+        "uid" : "92a5d2f0c2d6d8f5",
+        "parentUid" : "128c84dabcbdadc469caa92319f60112",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672227609368,
+          "stop" : 1672227611453,
+          "duration" : 2085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "128c84dabcbdadc469caa92319f60112"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-xhl-c1=\"\" href=\"/common/profile\">...</a> is not clickable at point (1155, 27). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" style=\"display: block;\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x009AACD3+2075859]\n\tOrdinal0 [0x0093EE61+1633889]\n\tOrdinal0 [0x0083B7BD+571325]\n\tOrdinal0 [0x00871499+791705]\n\tOrdinal0 [0x0086F4AC+783532]\n\tOrdinal0 [0x0086D0AB+774315]\n\tOrdinal0 [0x0086BD37+769335]\n\tOrdinal0 [0x00861C76+728182]\n\tOrdinal0 [0x0088731C+881436]\n\tOrdinal0 [0x008615BF+726463]\n\tOrdinal0 [0x00887534+881972]\n\tOrdinal0 [0x0089B56A+963946]\n\tOrdinal0 [0x00887136+880950]\n\tOrdinal0 [0x0085FEFD+720637]\n\tOrdinal0 [0x00860F3F+724799]\n\tGetHandleVerifier [0x00C5EED2+2769538]\n\tGetHandleVerifier [0x00C50D95+2711877]\n\tGetHandleVerifier [0x00A3A03A+521194]\n\tGetHandleVerifier [0x00A38DA0+516432]\n\tOrdinal0 [0x0094682C+1665068]\n\tOrdinal0 [0x0094B128+1683752]\n\tOrdinal0 [0x0094B215+1683989]\n\tOrdinal0 [0x00956484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "children" : [ {
+        "name" : "League Logo",
+        "uid" : "9078818e9fa05449",
+        "parentUid" : "a5edbbcf4e08925aa64c37b45f9ddcbe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672227652104,
+          "stop" : 1672227653189,
+          "duration" : 1085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5edbbcf4e08925aa64c37b45f9ddcbe"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

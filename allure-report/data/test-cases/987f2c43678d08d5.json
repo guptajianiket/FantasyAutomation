@@ -1,0 +1,166 @@
+{
+  "uid" : "987f2c43678d08d5",
+  "name" : "User League Joined Status",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_042",
+  "historyId" : "51f1e3e4ba6e98b86df04ceac22afd13",
+  "time" : {
+    "start" : 1672227634395,
+    "stop" : 1672227634778,
+    "duration" : 383
+  },
+  "description" : " To verify the user joined league status, in user profile page. ",
+  "descriptionHtml" : "<p>To verify the user joined league status, in user profile page.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <testCases.Web_Basic_Sanity_Pilot.Test_Websanity object at 0x00000222A11475B0>\n\n    @allure.title(\"User League Joined Status\")\n    @allure.testcase(testcasedocument, \"Test Case Document\")\n    @allure.tag(\"sanity\", \"user detail popup\", \"web\", \"user profile\")\n    @allure.link(testcasereport,\n                 link_type=\"hyperlink\", name=\"Test Case Report\")\n    @allure.severity(allure.severity_level.MINOR)\n    @allure.step(\"1. Get the current user league joined status. \"\n                 \"2. Compare the current user league joined status with the saved one in the script. \")\n    def test_042(self):\n        \"\"\" To verify the user joined league status, in user profile page. \"\"\"\n        # tp verify the user joined league status\n        try:\n            joined_league = self.driver.find_element(By.XPATH, fe_Sections.no_of_joined_league).text\n        except NoSuchElementException:\n            allure.attach(self.driver.get_screenshot_as_png(), name=\"SSTC_042NoSchElement\",\n                          attachment_type=AttachmentType.PNG)\n            assert False\n        else:\n            if joined_league == \"1\":\n                assert True\n            else:\n                allure.attach(self.driver.get_screenshot_as_png(), name=\"SSTC_042not1status\",\n                              attachment_type=AttachmentType.PNG)\n>               assert False\nE               assert False\n\ntestCases\\Web_Basic_Sanity_Pilot.py:1081: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : " To verify the user joined league status, in user profile page. ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <testCases.Web_Basic_Sanity_Pilot.Test_Websanity object at 0x00000222A11475B0>\n\n    @allure.title(\"User League Joined Status\")\n    @allure.testcase(testcasedocument, \"Test Case Document\")\n    @allure.tag(\"sanity\", \"user detail popup\", \"web\", \"user profile\")\n    @allure.link(testcasereport,\n                 link_type=\"hyperlink\", name=\"Test Case Report\")\n    @allure.severity(allure.severity_level.MINOR)\n    @allure.step(\"1. Get the current user league joined status. \"\n                 \"2. Compare the current user league joined status with the saved one in the script. \")\n    def test_042(self):\n        \"\"\" To verify the user joined league status, in user profile page. \"\"\"\n        # tp verify the user joined league status\n        try:\n            joined_league = self.driver.find_element(By.XPATH, fe_Sections.no_of_joined_league).text\n        except NoSuchElementException:\n            allure.attach(self.driver.get_screenshot_as_png(), name=\"SSTC_042NoSchElement\",\n                          attachment_type=AttachmentType.PNG)\n            assert False\n        else:\n            if joined_league == \"1\":\n                assert True\n            else:\n                allure.attach(self.driver.get_screenshot_as_png(), name=\"SSTC_042not1status\",\n                              attachment_type=AttachmentType.PNG)\n>               assert False\nE               assert False\n\ntestCases\\Web_Basic_Sanity_Pilot.py:1081: AssertionError",
+    "steps" : [ {
+      "name" : "1. Get the current user league joined status. 2. Compare the current user league joined status with the saved one in the script. ",
+      "time" : {
+        "start" : 1672227634395,
+        "stop" : 1672227634777,
+        "duration" : 382
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False\n",
+      "statusTrace" : "  File \"c:\\users\\aniket.gupta\\pycharmprojects\\fantasyautomation\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\aniket.gupta\\PycharmProjects\\FantasyAutomation\\testCases\\Web_Basic_Sanity_Pilot.py\", line 1081, in test_042\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27a2d61cbdc9f953",
+        "name" : "SSTC_042not1status",
+        "source" : "27a2d61cbdc9f953.png",
+        "type" : "image/png",
+        "size" : 658000
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "tag",
+    "value" : "user profile"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ac8372182939d047",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ac8372182939d047",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1672063031677,
+          "stop" : 1672063032067,
+          "duration" : 390
+        }
+      }, {
+        "uid" : "aa07cba8ef18d624",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1672060769038,
+          "stop" : 1672060769422,
+          "duration" : 384
+        }
+      }, {
+        "uid" : "c0c2a0c61ac9be47",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1671879894232,
+          "stop" : 1671879894691,
+          "duration" : 459
+        }
+      } ]
+    },
+    "tags" : [ "user profile", "web", "sanity", "user detail popup" ]
+  },
+  "source" : "987f2c43678d08d5.json",
+  "parameterValues" : [ ]
+}

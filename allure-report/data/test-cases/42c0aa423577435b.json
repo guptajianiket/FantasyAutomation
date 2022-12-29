@@ -1,0 +1,156 @@
+{
+  "uid" : "42c0aa423577435b",
+  "name" : "My League Header Button",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_010",
+  "historyId" : "a179949065dc81bad353b2f38d0c0ab3",
+  "time" : {
+    "start" : 1672227482449,
+    "stop" : 1672227484542,
+    "duration" : 2093
+  },
+  "description" : "To check the functionality of my league option from the header menu.",
+  "descriptionHtml" : "<p>To check the functionality of my league option from the header menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To check the functionality of my league option from the header menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Click on the my league option from header. 2. Get the current url. 3. Compare with the saved one in script.",
+      "time" : {
+        "start" : 1672227482449,
+        "stop" : 1672227484542,
+        "duration" : 2093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "my league"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "85eefd411d270be7",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/85eefd411d270be7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062880013,
+          "stop" : 1672062882119,
+          "duration" : 2106
+        }
+      }, {
+        "uid" : "c05bd149a719d7f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060634394,
+          "stop" : 1672060636479,
+          "duration" : 2085
+        }
+      }, {
+        "uid" : "ab6fdd88b9dbcdef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879731415,
+          "stop" : 1671879733562,
+          "duration" : 2147
+        }
+      }, {
+        "uid" : "73a38c8877794c12",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+        "time" : {
+          "start" : 1671457094981,
+          "stop" : 1671457094982,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "my league", "web", "sanity", "user detail popup" ]
+  },
+  "source" : "42c0aa423577435b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,147 @@
+{
+  "uid" : "2bab73a0c4b30764",
+  "name" : "Bonus Point Page",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_017",
+  "historyId" : "48fe542ff54192fe46901aa2553ac01e",
+  "time" : {
+    "start" : 1672227527342,
+    "stop" : 1672227528426,
+    "duration" : 1084
+  },
+  "description" : "To check the functionality of the bonus point option of header menu.",
+  "descriptionHtml" : "<p>To check the functionality of the bonus point option of header menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To check the functionality of the bonus point option of header menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Click on the bonus point from the header menu. 2. Get the current url. 3. Compare the current url with the saved 'bonuspoint' url in the script. ",
+      "time" : {
+        "start" : 1672227527342,
+        "stop" : 1672227528426,
+        "duration" : 1084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "bonuspoint"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4f4ecd0347525a3f",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4f4ecd0347525a3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062925163,
+          "stop" : 1672062926251,
+          "duration" : 1088
+        }
+      }, {
+        "uid" : "eab2005867abc30a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060679204,
+          "stop" : 1672060680300,
+          "duration" : 1096
+        }
+      }, {
+        "uid" : "4440d40382e0a608",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879773762,
+          "stop" : 1671879774902,
+          "duration" : 1140
+        }
+      } ]
+    },
+    "tags" : [ "web", "sanity", "user detail popup", "bonuspoint" ]
+  },
+  "source" : "2bab73a0c4b30764.json",
+  "parameterValues" : [ ]
+}

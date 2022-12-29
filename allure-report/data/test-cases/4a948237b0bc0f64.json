@@ -1,0 +1,147 @@
+{
+  "uid" : "4a948237b0bc0f64",
+  "name" : "League Tray",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_034",
+  "historyId" : "95739855e80d354ac3ec366bb1be699b",
+  "time" : {
+    "start" : 1672227600229,
+    "stop" : 1672227606252,
+    "duration" : 6023
+  },
+  "description" : "To verify the presence of league tray in my league page.",
+  "descriptionHtml" : "<p>To verify the presence of league tray in my league page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To verify the presence of league tray in my league page.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Check for the league tray element. ",
+      "time" : {
+        "start" : 1672227600230,
+        "stop" : 1672227606252,
+        "duration" : 6022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "my league"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1065cf2a3abd49d9",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1065cf2a3abd49d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062997998,
+          "stop" : 1672063004013,
+          "duration" : 6015
+        }
+      }, {
+        "uid" : "6cd41e66333ee139",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060751623,
+          "stop" : 1672060757644,
+          "duration" : 6021
+        }
+      }, {
+        "uid" : "e720d90fe1726b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879846363,
+          "stop" : 1671879852399,
+          "duration" : 6036
+        }
+      } ]
+    },
+    "tags" : [ "my league", "web", "sanity", "user detail popup" ]
+  },
+  "source" : "4a948237b0bc0f64.json",
+  "parameterValues" : [ ]
+}

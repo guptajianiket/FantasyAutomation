@@ -1,0 +1,147 @@
+{
+  "uid" : "7e37721e719d8bb4",
+  "name" : "Choose Captain Validation Pop Up",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_023",
+  "historyId" : "c05b3cac1acead1a9549f62f7d97c5ae",
+  "time" : {
+    "start" : 1672227543941,
+    "stop" : 1672227546053,
+    "duration" : 2112
+  },
+  "description" : "To verify choose captain validation pop up.",
+  "descriptionHtml" : "<p>To verify choose captain validation pop up.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "To verify choose captain validation pop up.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Since currently user is in create team page where the contestants are already selected.Click on the create team button. 2. Then without selecting captain click on submit. 3. Check for captain selection validation pop up container. ",
+      "time" : {
+        "start" : 1672227543942,
+        "stop" : 1672227546053,
+        "duration" : 2111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "create team"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4832798ad205b8ca",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4832798ad205b8ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672062941739,
+          "stop" : 1672062943863,
+          "duration" : 2124
+        }
+      }, {
+        "uid" : "6c43c851de22dab7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672060695728,
+          "stop" : 1672060697842,
+          "duration" : 2114
+        }
+      }, {
+        "uid" : "3a8aaaf38ed7911e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879791013,
+          "stop" : 1671879793200,
+          "duration" : 2187
+        }
+      } ]
+    },
+    "tags" : [ "web", "sanity", "user detail popup", "create team" ]
+  },
+  "source" : "7e37721e719d8bb4.json",
+  "parameterValues" : [ ]
+}

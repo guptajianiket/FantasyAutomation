@@ -1,0 +1,148 @@
+{
+  "uid" : "344d1401e1df9df",
+  "name" : "TnC Back Button",
+  "fullName" : "testCases.Web_Basic_Sanity_Pilot.Test_Websanity#test_046",
+  "historyId" : "52dd6adacd5974339da1fc69ee7d8972",
+  "time" : {
+    "start" : 1672227642711,
+    "stop" : 1672227644776,
+    "duration" : 2065
+  },
+  "description" : " To check the functionality of the back button of TnC page.",
+  "descriptionHtml" : "<p>To check the functionality of the back button of TnC page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : " To check the functionality of the back button of TnC page.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Click on the back button. 2. Get the current url. 3. Compare the current url with the saved one in the script. ",
+      "time" : {
+        "start" : 1672227642711,
+        "stop" : 1672227644776,
+        "duration" : 2065
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "user detail popup"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "tag",
+    "value" : "terms and conditions"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Websanity"
+  }, {
+    "name" : "host",
+    "value" : "Aniket-Gupta"
+  }, {
+    "name" : "thread",
+    "value" : "25572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.Web_Basic_Sanity_Pilot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Case Report",
+    "url" : "https://moraviait-my.sharepoint.com/:x:/g/personal/anigupta_moravia_com/EfP285he4TZMkmbtv7qCVIUBlZ32Jf-tfggx7CD1JJMKUg?e=S9BFmB",
+    "type" : "hyperlink"
+  }, {
+    "name" : "Test Case Document",
+    "url" : "https://moraviait-my.sharepoint.com/:w:/g/personal/anigupta_moravia_com/ETq9D_2FRG9At5IHN1JY9FwBCK3YKC5vry8hhhKEVtJAjA?e=iYk53U",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "8f7feb5cdd5aab8f",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8f7feb5cdd5aab8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672063039999,
+          "stop" : 1672063042074,
+          "duration" : 2075
+        }
+      }, {
+        "uid" : "74a241f78748d360",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='wrapper']/div/app-terms-and-condition/section/div[2]/div/div[2]/a\"}\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D2AC2F+764975]\n\tOrdinal0 [0x00D2AE1B+765467]\n\tOrdinal0 [0x00D5D0F2+970994]\n\tOrdinal0 [0x00D47364+881508]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+        "time" : {
+          "start" : 1672060794198,
+          "stop" : 1672060814232,
+          "duration" : 20034
+        }
+      }, {
+        "uid" : "ace1a74589977655",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671879901217,
+          "stop" : 1671879903312,
+          "duration" : 2095
+        }
+      } ]
+    },
+    "tags" : [ "web", "sanity", "user detail popup", "terms and conditions" ]
+  },
+  "source" : "344d1401e1df9df.json",
+  "parameterValues" : [ ]
+}

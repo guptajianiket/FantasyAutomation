@@ -1,0 +1,2482 @@
+{
+  "6a36d89c2f7aa55aee159b654704ca47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "a154cc1abc254b38",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a154cc1abc254b38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227646871,
+        "stop" : 1672227646891,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "fb3eb59ef51e97ed",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/fb3eb59ef51e97ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063044189,
+        "stop" : 1672063044210,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "75f69dde28c9613e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='wrapper']/div/app-create-team/div[2]/div/div/h3\"}\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D2AC2F+764975]\n\tOrdinal0 [0x00D2AE1B+765467]\n\tOrdinal0 [0x00D5D0F2+970994]\n\tOrdinal0 [0x00D47364+881508]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060815439,
+        "stop" : 1672060835488,
+        "duration" : 20049
+      }
+    }, {
+      "uid" : "805c91943f67e6a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879905451,
+        "stop" : 1671879905475,
+        "duration" : 24
+      }
+    } ]
+  },
+  "1fe8c8974ffa4f4d5f6a6f4e89722c80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "6f406bc4b8440d16",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6f406bc4b8440d16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227474942,
+        "stop" : 1672227474975,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "1a5d1854044a4c1d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1a5d1854044a4c1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062872493,
+        "stop" : 1672062872518,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "183ccb796dfe4a84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060626881,
+        "stop" : 1672060626903,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "e33a81339c892b7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879723541,
+        "stop" : 1671879723596,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "16e72f7d52b21638",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457091715,
+        "stop" : 1671457091718,
+        "duration" : 3
+      }
+    } ]
+  },
+  "e442b6e6aadfa6a0d4e228e15e1aba05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "98e8cad1290fa50f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/98e8cad1290fa50f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227570161,
+        "stop" : 1672227570236,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "d64b59979957e50f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d64b59979957e50f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062967974,
+        "stop" : 1672062968035,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "9db545fdbeeb6be2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060721978,
+        "stop" : 1672060722033,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "6e563b039b2c9757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879817331,
+        "stop" : 1671879817443,
+        "duration" : 112
+      }
+    } ]
+  },
+  "48fe542ff54192fe46901aa2553ac01e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "2bab73a0c4b30764",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2bab73a0c4b30764",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227527342,
+        "stop" : 1672227528426,
+        "duration" : 1084
+      }
+    }, {
+      "uid" : "4f4ecd0347525a3f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4f4ecd0347525a3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062925163,
+        "stop" : 1672062926251,
+        "duration" : 1088
+      }
+    }, {
+      "uid" : "eab2005867abc30a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060679204,
+        "stop" : 1672060680300,
+        "duration" : 1096
+      }
+    }, {
+      "uid" : "4440d40382e0a608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879773762,
+        "stop" : 1671879774902,
+        "duration" : 1140
+      }
+    } ]
+  },
+  "9f4b4200b4e3a45fe0b613fdc3fe6595" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "d3bd2bc03b3bf991",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d3bd2bc03b3bf991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227529514,
+        "stop" : 1672227542093,
+        "duration" : 12579
+      }
+    }, {
+      "uid" : "e9bffbd4d0b01b57",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e9bffbd4d0b01b57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062927346,
+        "stop" : 1672062939922,
+        "duration" : 12576
+      }
+    }, {
+      "uid" : "1e02c568ef255193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060681402,
+        "stop" : 1672060693899,
+        "duration" : 12497
+      }
+    }, {
+      "uid" : "8650a90794d25505",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879776067,
+        "stop" : 1671879789019,
+        "duration" : 12952
+      }
+    } ]
+  },
+  "c3f798cd4243b3162a0d659cfad41b49" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "633f4b8f2394371b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/633f4b8f2394371b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227471709,
+        "stop" : 1672227471811,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "7bea06bd859beed",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7bea06bd859beed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062869701,
+        "stop" : 1672062869836,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "60edbc0088d706b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060623684,
+        "stop" : 1672060624003,
+        "duration" : 319
+      }
+    }, {
+      "uid" : "f070cd9b21f97256",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879718436,
+        "stop" : 1671879719329,
+        "duration" : 893
+      }
+    }, {
+      "uid" : "65a4dc97a1471675",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671457054016,
+        "stop" : 1671457054098,
+        "duration" : 82
+      }
+    } ]
+  },
+  "b8debb88b74eaa54588f4b4980c1c835" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "615a32bc831f204a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/615a32bc831f204a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227632093,
+        "stop" : 1672227633811,
+        "duration" : 1718
+      }
+    }, {
+      "uid" : "169f38bab219b558",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/169f38bab219b558",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063029886,
+        "stop" : 1672063031123,
+        "duration" : 1237
+      }
+    }, {
+      "uid" : "bbafe512a5f896b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060766481,
+        "stop" : 1672060767716,
+        "duration" : 1235
+      }
+    }, {
+      "uid" : "c32e04d2ab0ec71d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879892923,
+        "stop" : 1671879893189,
+        "duration" : 266
+      }
+    } ]
+  },
+  "336731f2f6e4eb4d7027c5b43a06ea7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "a320af1d39f59c78",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a320af1d39f59c78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227606285,
+        "stop" : 1672227609357,
+        "duration" : 3072
+      }
+    }, {
+      "uid" : "8957ca5f0f5e9b57",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8957ca5f0f5e9b57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063004051,
+        "stop" : 1672063007130,
+        "duration" : 3079
+      }
+    }, {
+      "uid" : "12156497cfd1b317",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060757678,
+        "stop" : 1672060760768,
+        "duration" : 3090
+      }
+    }, {
+      "uid" : "6118a002424d230d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span _ngcontent-qua-c6=\"\" class=\"points-view\">...</span> is not clickable at point (1078, 178). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" style=\"display: block;\" aria-modal=\"true\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0062ACD3+2075859]\n\tOrdinal0 [0x005BEE61+1633889]\n\tOrdinal0 [0x004BB7BD+571325]\n\tOrdinal0 [0x004F1499+791705]\n\tOrdinal0 [0x004EF4AC+783532]\n\tOrdinal0 [0x004ED0AB+774315]\n\tOrdinal0 [0x004EBD37+769335]\n\tOrdinal0 [0x004E1C76+728182]\n\tOrdinal0 [0x0050731C+881436]\n\tOrdinal0 [0x004E15BF+726463]\n\tOrdinal0 [0x00507534+881972]\n\tOrdinal0 [0x0051B56A+963946]\n\tOrdinal0 [0x00507136+880950]\n\tOrdinal0 [0x004DFEFD+720637]\n\tOrdinal0 [0x004E0F3F+724799]\n\tGetHandleVerifier [0x008DEED2+2769538]\n\tGetHandleVerifier [0x008D0D95+2711877]\n\tGetHandleVerifier [0x006BA03A+521194]\n\tGetHandleVerifier [0x006B8DA0+516432]\n\tOrdinal0 [0x005C682C+1665068]\n\tOrdinal0 [0x005CB128+1683752]\n\tOrdinal0 [0x005CB215+1683989]\n\tOrdinal0 [0x005D6484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1671879852465,
+        "stop" : 1671879855615,
+        "duration" : 3150
+      }
+    } ]
+  },
+  "b9fec60b7155e6be8cf72dfec13b38f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "54ea011503b00688",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/54ea011503b00688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227576519,
+        "stop" : 1672227579595,
+        "duration" : 3076
+      }
+    }, {
+      "uid" : "7e2553efdf1991c8",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7e2553efdf1991c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062974358,
+        "stop" : 1672062977436,
+        "duration" : 3078
+      }
+    }, {
+      "uid" : "54f88377d0097f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060728390,
+        "stop" : 1672060731472,
+        "duration" : 3082
+      }
+    }, {
+      "uid" : "8b2a28f0ca2187c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879824069,
+        "stop" : 1671879827156,
+        "duration" : 3087
+      }
+    } ]
+  },
+  "304ee43b9036d618914fa1d8f4fb5fed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "2891aeae284aee44",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2891aeae284aee44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227646897,
+        "stop" : 1672227648957,
+        "duration" : 2060
+      }
+    }, {
+      "uid" : "d2d5c62155246925",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d2d5c62155246925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063044225,
+        "stop" : 1672063046304,
+        "duration" : 2079
+      }
+    }, {
+      "uid" : "b274f9c1d1b5ac09",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='wrapper']/div/app-create-team/div[2]/div/div/div/button[2]\"}\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D2AC2F+764975]\n\tOrdinal0 [0x00D2AE1B+765467]\n\tOrdinal0 [0x00D5D0F2+970994]\n\tOrdinal0 [0x00D47364+881508]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060835533,
+        "stop" : 1672060855542,
+        "duration" : 20009
+      }
+    }, {
+      "uid" : "6785c321e3dda6d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879905488,
+        "stop" : 1671879907573,
+        "duration" : 2085
+      }
+    } ]
+  },
+  "91b33fefb97f40ef847c957822975694" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "dd583ce7fddea3fa",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/dd583ce7fddea3fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227546063,
+        "stop" : 1672227570154,
+        "duration" : 24091
+      }
+    }, {
+      "uid" : "29da4d82210b1349",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/29da4d82210b1349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062943878,
+        "stop" : 1672062967966,
+        "duration" : 24088
+      }
+    }, {
+      "uid" : "2a49005a527dac76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060697851,
+        "stop" : 1672060721963,
+        "duration" : 24112
+      }
+    }, {
+      "uid" : "670cb2d66df5377e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879793219,
+        "stop" : 1671879817314,
+        "duration" : 24095
+      }
+    } ]
+  },
+  "fd7e623f064882d2ddd91e817cbf97c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "43fa852cc622fc70",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/43fa852cc622fc70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227574400,
+        "stop" : 1672227576506,
+        "duration" : 2106
+      }
+    }, {
+      "uid" : "7c49fd30f61fb4aa",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7c49fd30f61fb4aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062972218,
+        "stop" : 1672062974348,
+        "duration" : 2130
+      }
+    }, {
+      "uid" : "f7c8ee73f321fe69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060726271,
+        "stop" : 1672060728381,
+        "duration" : 2110
+      }
+    }, {
+      "uid" : "1f5527e37040a5a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879821882,
+        "stop" : 1671879824060,
+        "duration" : 2178
+      }
+    } ]
+  },
+  "411432290383817c2f73dda4b57cecea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "b32f9f021b8b545",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b32f9f021b8b545",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227648964,
+        "stop" : 1672227652098,
+        "duration" : 3134
+      }
+    }, {
+      "uid" : "29b73fae3daaa63f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/29b73fae3daaa63f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063046312,
+        "stop" : 1672063049433,
+        "duration" : 3121
+      }
+    }, {
+      "uid" : "1d99d28e6ead661b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-ihy-c1=\"\" href=\"javascript:void(0);\" id=\"edit_team_header\">...</a> is not clickable at point (744, 27). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" style=\"display: block;\" aria-modal=\"true\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D31499+791705]\n\tOrdinal0 [0x00D2F4AC+783532]\n\tOrdinal0 [0x00D2D0AB+774315]\n\tOrdinal0 [0x00D2BD37+769335]\n\tOrdinal0 [0x00D21C76+728182]\n\tOrdinal0 [0x00D4731C+881436]\n\tOrdinal0 [0x00D215BF+726463]\n\tOrdinal0 [0x00D47534+881972]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060855588,
+        "stop" : 1672060856684,
+        "duration" : 1096
+      }
+    }, {
+      "uid" : "84cd6e62d566b8c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879907586,
+        "stop" : 1671879910752,
+        "duration" : 3166
+      }
+    } ]
+  },
+  "f43a815696c8fd54b87cd3fab50c0f32" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "70ba5e42486d6abd",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/70ba5e42486d6abd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227471818,
+        "stop" : 1672227474870,
+        "duration" : 3052
+      }
+    }, {
+      "uid" : "2492af577d81f095",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2492af577d81f095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062869847,
+        "stop" : 1672062872406,
+        "duration" : 2559
+      }
+    }, {
+      "uid" : "28e5286d0ec611f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672060624012,
+        "stop" : 1672060626498,
+        "duration" : 2486
+      }
+    }, {
+      "uid" : "f2c1ce6eb622db45",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1671879719343,
+        "stop" : 1671879722433,
+        "duration" : 3090
+      }
+    }, {
+      "uid" : "a5ecd9e2bff6a2c6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457054106,
+        "stop" : 1671457091390,
+        "duration" : 37284
+      }
+    } ]
+  },
+  "168c044a963a7f6e1641b01a14534d39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "186ec5780eb1c284",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/186ec5780eb1c284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227480324,
+        "stop" : 1672227482440,
+        "duration" : 2116
+      }
+    }, {
+      "uid" : "c1f0167bba4bad23",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c1f0167bba4bad23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062877904,
+        "stop" : 1672062880004,
+        "duration" : 2100
+      }
+    }, {
+      "uid" : "8057be2f1865f894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060632310,
+        "stop" : 1672060634386,
+        "duration" : 2076
+      }
+    }, {
+      "uid" : "dd17be4c89200879",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879729266,
+        "stop" : 1671879731401,
+        "duration" : 2135
+      }
+    }, {
+      "uid" : "fe3707b43dc31d20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671457093957,
+        "stop" : 1671457094973,
+        "duration" : 1016
+      }
+    } ]
+  },
+  "59cc0138e8b2f0ef8b886f43523c7704" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "e372f2661fa18ba7",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e372f2661fa18ba7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227634805,
+        "stop" : 1672227640616,
+        "duration" : 5811
+      }
+    }, {
+      "uid" : "6a9dff7c35a51a54",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6a9dff7c35a51a54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063032103,
+        "stop" : 1672063037886,
+        "duration" : 5783
+      }
+    }, {
+      "uid" : "b69ff752662a7155",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-ihy-c1=\"\" href=\"/leaderboard/leaderboard\">...</a> is not clickable at point (950, 27). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" style=\"display: block;\" aria-modal=\"true\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D31499+791705]\n\tOrdinal0 [0x00D2F4AC+783532]\n\tOrdinal0 [0x00D2D0AB+774315]\n\tOrdinal0 [0x00D2BD37+769335]\n\tOrdinal0 [0x00D21C76+728182]\n\tOrdinal0 [0x00D4731C+881436]\n\tOrdinal0 [0x00D215BF+726463]\n\tOrdinal0 [0x00D47534+881972]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060769448,
+        "stop" : 1672060772663,
+        "duration" : 3215
+      }
+    }, {
+      "uid" : "67ac6d0d3ccca2a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879894728,
+        "stop" : 1671879899068,
+        "duration" : 4340
+      }
+    } ]
+  },
+  "789d236e33ab6f748699ab0d76bbf59a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "7a9abf72de0e6c6f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7a9abf72de0e6c6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227477133,
+        "stop" : 1672227480313,
+        "duration" : 3180
+      }
+    }, {
+      "uid" : "ed833a571e683c0e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ed833a571e683c0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062874683,
+        "stop" : 1672062877890,
+        "duration" : 3207
+      }
+    }, {
+      "uid" : "4688258af868bd28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060629065,
+        "stop" : 1672060632293,
+        "duration" : 3228
+      }
+    }, {
+      "uid" : "926b606e507b6f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879725967,
+        "stop" : 1671879729250,
+        "duration" : 3283
+      }
+    }, {
+      "uid" : "a351a7cbf847190b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457093916,
+        "stop" : 1671457093917,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8f1f58f4589f57ce0272892f45167c4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "ec4ff2c940360836",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ec4ff2c940360836",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227542244,
+        "stop" : 1672227543933,
+        "duration" : 1689
+      }
+    }, {
+      "uid" : "9152d6040ac94379",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9152d6040ac94379",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062940067,
+        "stop" : 1672062941732,
+        "duration" : 1665
+      }
+    }, {
+      "uid" : "3f19c6d506fe415e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060694024,
+        "stop" : 1672060695722,
+        "duration" : 1698
+      }
+    }, {
+      "uid" : "88dcd8a0ede00cb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879789260,
+        "stop" : 1671879790999,
+        "duration" : 1739
+      }
+    } ]
+  },
+  "f9c81139a80a32fd95267ceac71d4b29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "b6444f56796b160b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b6444f56796b160b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227477108,
+        "stop" : 1672227477124,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "5c0ab6319df6a6f3",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5c0ab6319df6a6f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062874658,
+        "stop" : 1672062874676,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "2bca2aeef4b2fb28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060629040,
+        "stop" : 1672060629058,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "c7233df55a851a92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879725927,
+        "stop" : 1671879725956,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "c65b333aa372b7bf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457093865,
+        "stop" : 1671457093866,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a179949065dc81bad353b2f38d0c0ab3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "42c0aa423577435b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/42c0aa423577435b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227482449,
+        "stop" : 1672227484542,
+        "duration" : 2093
+      }
+    }, {
+      "uid" : "85eefd411d270be7",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/85eefd411d270be7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062880013,
+        "stop" : 1672062882119,
+        "duration" : 2106
+      }
+    }, {
+      "uid" : "c05bd149a719d7f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060634394,
+        "stop" : 1672060636479,
+        "duration" : 2085
+      }
+    }, {
+      "uid" : "ab6fdd88b9dbcdef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879731415,
+        "stop" : 1671879733562,
+        "duration" : 2147
+      }
+    }, {
+      "uid" : "73a38c8877794c12",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457094981,
+        "stop" : 1671457094982,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9fc908128dd18d39eaa67c6ffa2c3002" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "6a57297a26066edc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6a57297a26066edc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227510108,
+        "stop" : 1672227526223,
+        "duration" : 16115
+      }
+    }, {
+      "uid" : "81523243ee99a08e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/81523243ee99a08e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062907966,
+        "stop" : 1672062924057,
+        "duration" : 16091
+      }
+    }, {
+      "uid" : "f29e24dd4c3df298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060662004,
+        "stop" : 1672060678117,
+        "duration" : 16113
+      }
+    }, {
+      "uid" : "9d2bc90ff376e1d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879756394,
+        "stop" : 1671879772546,
+        "duration" : 16152
+      }
+    } ]
+  },
+  "c05b3cac1acead1a9549f62f7d97c5ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "7e37721e719d8bb4",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7e37721e719d8bb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227543941,
+        "stop" : 1672227546053,
+        "duration" : 2112
+      }
+    }, {
+      "uid" : "4832798ad205b8ca",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4832798ad205b8ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062941739,
+        "stop" : 1672062943863,
+        "duration" : 2124
+      }
+    }, {
+      "uid" : "6c43c851de22dab7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060695728,
+        "stop" : 1672060697842,
+        "duration" : 2114
+      }
+    }, {
+      "uid" : "3a8aaaf38ed7911e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879791013,
+        "stop" : 1671879793200,
+        "duration" : 2187
+      }
+    } ]
+  },
+  "b67a5726a65bf3496880cb7db217f7e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "6cc85e4e6a3ce3d4",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6cc85e4e6a3ce3d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227477080,
+        "stop" : 1672227477100,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "7ee041e76aa8da15",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7ee041e76aa8da15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062874629,
+        "stop" : 1672062874648,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "a04b7e16e9a1440f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060629015,
+        "stop" : 1672060629033,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "2914dd57471846cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879725883,
+        "stop" : 1671879725918,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "dd643432dc35612a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457093823,
+        "stop" : 1671457093824,
+        "duration" : 1
+      }
+    } ]
+  },
+  "7cf605d4bde23b02c05b9b2879ceb27b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "92a5d2f0c2d6d8f5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/92a5d2f0c2d6d8f5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/ because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/' is not a valid XPath expression.\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x009AACD3+2075859]\n\tOrdinal0 [0x0093EE61+1633889]\n\tOrdinal0 [0x0083B7BD+571325]\n\tOrdinal0 [0x0083E374+582516]\n\tOrdinal0 [0x0083E225+582181]\n\tOrdinal0 [0x0083E4C0+582848]\n\tOrdinal0 [0x0086A9A2+764322]\n\tOrdinal0 [0x0086AE1B+765467]\n\tOrdinal0 [0x0089D0F2+970994]\n\tOrdinal0 [0x00887364+881508]\n\tOrdinal0 [0x0089B56A+963946]\n\tOrdinal0 [0x00887136+880950]\n\tOrdinal0 [0x0085FEFD+720637]\n\tOrdinal0 [0x00860F3F+724799]\n\tGetHandleVerifier [0x00C5EED2+2769538]\n\tGetHandleVerifier [0x00C50D95+2711877]\n\tGetHandleVerifier [0x00A3A03A+521194]\n\tGetHandleVerifier [0x00A38DA0+516432]\n\tOrdinal0 [0x0094682C+1665068]\n\tOrdinal0 [0x0094B128+1683752]\n\tOrdinal0 [0x0094B215+1683989]\n\tOrdinal0 [0x00956484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672227609368,
+        "stop" : 1672227611453,
+        "duration" : 2085
+      }
+    }, {
+      "uid" : "bd96ab34ca12abf9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/bd96ab34ca12abf9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/ because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/' is not a valid XPath expression.\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00CFE374+582516]\n\tOrdinal0 [0x00CFE225+582181]\n\tOrdinal0 [0x00CFE4C0+582848]\n\tOrdinal0 [0x00D2A9A2+764322]\n\tOrdinal0 [0x00D2AE1B+765467]\n\tOrdinal0 [0x00D5D0F2+970994]\n\tOrdinal0 [0x00D47364+881508]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672063007143,
+        "stop" : 1672063009215,
+        "duration" : 2072
+      }
+    }, {
+      "uid" : "891743c4635cced0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/ because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/' is not a valid XPath expression.\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00CFE374+582516]\n\tOrdinal0 [0x00CFE225+582181]\n\tOrdinal0 [0x00CFE4C0+582848]\n\tOrdinal0 [0x00D2A9A2+764322]\n\tOrdinal0 [0x00D2AE1B+765467]\n\tOrdinal0 [0x00D5D0F2+970994]\n\tOrdinal0 [0x00D47364+881508]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060760776,
+        "stop" : 1672060762895,
+        "duration" : 2119
+      }
+    }, {
+      "uid" : "b8c10f09047ef3bd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/modal-container/div/div/div/div/div[2]/button\"}\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0062ACD3+2075859]\n\tOrdinal0 [0x005BEE61+1633889]\n\tOrdinal0 [0x004BB7BD+571325]\n\tOrdinal0 [0x004EAC2F+764975]\n\tOrdinal0 [0x004EAE1B+765467]\n\tOrdinal0 [0x0051D0F2+970994]\n\tOrdinal0 [0x00507364+881508]\n\tOrdinal0 [0x0051B56A+963946]\n\tOrdinal0 [0x00507136+880950]\n\tOrdinal0 [0x004DFEFD+720637]\n\tOrdinal0 [0x004E0F3F+724799]\n\tGetHandleVerifier [0x008DEED2+2769538]\n\tGetHandleVerifier [0x008D0D95+2711877]\n\tGetHandleVerifier [0x006BA03A+521194]\n\tGetHandleVerifier [0x006B8DA0+516432]\n\tOrdinal0 [0x005C682C+1665068]\n\tOrdinal0 [0x005CB128+1683752]\n\tOrdinal0 [0x005CB215+1683989]\n\tOrdinal0 [0x005D6484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1671879855701,
+        "stop" : 1671879876771,
+        "duration" : 21070
+      }
+    } ]
+  },
+  "d132a99d2e2cb6d90922da3d3e1466c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "129e6bd811854f75",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/129e6bd811854f75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227474982,
+        "stop" : 1672227477069,
+        "duration" : 2087
+      }
+    }, {
+      "uid" : "a666532a5941a9d1",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a666532a5941a9d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062872526,
+        "stop" : 1672062874623,
+        "duration" : 2097
+      }
+    }, {
+      "uid" : "b5e495233e5b6ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060626915,
+        "stop" : 1672060629008,
+        "duration" : 2093
+      }
+    }, {
+      "uid" : "ce71eb2237b42156",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879723609,
+        "stop" : 1671879725868,
+        "duration" : 2259
+      }
+    }, {
+      "uid" : "aad1422a8d8180a2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457091772,
+        "stop" : 1671457093782,
+        "duration" : 2010
+      }
+    } ]
+  },
+  "05c6b6c49da609711dfe83e9b521f0bc" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "805bb2ffcc7ad419",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/805bb2ffcc7ad419",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672227633821,
+        "stop" : 1672227634342,
+        "duration" : 521
+      }
+    }, {
+      "uid" : "8c5080902e3bbd01",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8c5080902e3bbd01",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672063031143,
+        "stop" : 1672063031619,
+        "duration" : 476
+      }
+    }, {
+      "uid" : "f71438fe033d203f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672060767725,
+        "stop" : 1672060768572,
+        "duration" : 847
+      }
+    }, {
+      "uid" : "c17cc9ba11a2ee6a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1671879893199,
+        "stop" : 1671879893721,
+        "duration" : 522
+      }
+    } ]
+  },
+  "1183f9086f91b64ba643b3f29fddcfd5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "6f8ccb5315e2d2dc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6f8ccb5315e2d2dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227570243,
+        "stop" : 1672227572320,
+        "duration" : 2077
+      }
+    }, {
+      "uid" : "e2a0af6d21406c11",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e2a0af6d21406c11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062968050,
+        "stop" : 1672062970115,
+        "duration" : 2065
+      }
+    }, {
+      "uid" : "5cf285ecdd5a3d62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060722040,
+        "stop" : 1672060724129,
+        "duration" : 2089
+      }
+    }, {
+      "uid" : "6d085a08ce16651e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879817461,
+        "stop" : 1671879819564,
+        "duration" : 2103
+      }
+    } ]
+  },
+  "c27f4dd2b7e9465e5c0fd0b2c9bd125c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "cc265d8ed3309a0a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/cc265d8ed3309a0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227474877,
+        "stop" : 1672227474935,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "aa42cca8b8e4d51e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/aa42cca8b8e4d51e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062872415,
+        "stop" : 1672062872486,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "ee5bdbd2a349562c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060626790,
+        "stop" : 1672060626874,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "1b6b9fd154f07e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879723414,
+        "stop" : 1671879723528,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "51b0f6a5cec25154",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457091663,
+        "stop" : 1671457091664,
+        "duration" : 1
+      }
+    } ]
+  },
+  "52dd6adacd5974339da1fc69ee7d8972" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "344d1401e1df9df",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/344d1401e1df9df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227642711,
+        "stop" : 1672227644776,
+        "duration" : 2065
+      }
+    }, {
+      "uid" : "8f7feb5cdd5aab8f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8f7feb5cdd5aab8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063039999,
+        "stop" : 1672063042074,
+        "duration" : 2075
+      }
+    }, {
+      "uid" : "74a241f78748d360",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='wrapper']/div/app-terms-and-condition/section/div[2]/div/div[2]/a\"}\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D2AC2F+764975]\n\tOrdinal0 [0x00D2AE1B+765467]\n\tOrdinal0 [0x00D5D0F2+970994]\n\tOrdinal0 [0x00D47364+881508]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060794198,
+        "stop" : 1672060814232,
+        "duration" : 20034
+      }
+    }, {
+      "uid" : "ace1a74589977655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879901217,
+        "stop" : 1671879903312,
+        "duration" : 2095
+      }
+    } ]
+  },
+  "0d0b09e368f7e287fec0abba2d68fd55" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "6f4d703d6ff7f42b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6f4d703d6ff7f42b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227584876,
+        "stop" : 1672227588957,
+        "duration" : 4081
+      }
+    }, {
+      "uid" : "7377f51c38ec16b5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7377f51c38ec16b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062982710,
+        "stop" : 1672062986802,
+        "duration" : 4092
+      }
+    }, {
+      "uid" : "8b2ba425b33791e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060736742,
+        "stop" : 1672060740817,
+        "duration" : 4075
+      }
+    }, {
+      "uid" : "2d32a158f0df301a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879832480,
+        "stop" : 1671879836618,
+        "duration" : 4138
+      }
+    } ]
+  },
+  "7001c21ab71a5cd6f241ca2a6bd32e95" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "d985a78675d6c45c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d985a78675d6c45c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227484552,
+        "stop" : 1672227484565,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "1d4c80d0386c7c9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1d4c80d0386c7c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062882128,
+        "stop" : 1672062882143,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "36e26f66ae9bee5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060636486,
+        "stop" : 1672060636494,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "8b21677b72d87e3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879733576,
+        "stop" : 1671879733593,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "1e22d1b870af4852",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457095034,
+        "stop" : 1671457095037,
+        "duration" : 3
+      }
+    } ]
+  },
+  "c195582bc4dc05201d89110870c0c5bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "35002fb6f19e4e1a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/35002fb6f19e4e1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227542115,
+        "stop" : 1672227542234,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "e7fb71100288fe63",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e7fb71100288fe63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062939943,
+        "stop" : 1672062940059,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "745b8527eab6dbb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060693915,
+        "stop" : 1672060694014,
+        "duration" : 99
+      }
+    }, {
+      "uid" : "683163860dee1cf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879789045,
+        "stop" : 1671879789245,
+        "duration" : 200
+      }
+    } ]
+  },
+  "335e9cf80c58876fed1ccbcf19173d6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "27a4ed79ccde4352",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/27a4ed79ccde4352",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227588968,
+        "stop" : 1672227590050,
+        "duration" : 1082
+      }
+    }, {
+      "uid" : "521e8dc7838ef09b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/521e8dc7838ef09b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062986811,
+        "stop" : 1672062987884,
+        "duration" : 1073
+      }
+    }, {
+      "uid" : "4469f736512980fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060740829,
+        "stop" : 1672060741897,
+        "duration" : 1068
+      }
+    }, {
+      "uid" : "f0b0ee4bfdb03281",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879836635,
+        "stop" : 1671879837756,
+        "duration" : 1121
+      }
+    } ]
+  },
+  "c4e534ebcc98d0ea880d1efe11efdaf9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "9078818e9fa05449",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9078818e9fa05449",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-xhl-c1=\"\" href=\"/common/profile\">...</a> is not clickable at point (1155, 27). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" style=\"display: block;\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x009AACD3+2075859]\n\tOrdinal0 [0x0093EE61+1633889]\n\tOrdinal0 [0x0083B7BD+571325]\n\tOrdinal0 [0x00871499+791705]\n\tOrdinal0 [0x0086F4AC+783532]\n\tOrdinal0 [0x0086D0AB+774315]\n\tOrdinal0 [0x0086BD37+769335]\n\tOrdinal0 [0x00861C76+728182]\n\tOrdinal0 [0x0088731C+881436]\n\tOrdinal0 [0x008615BF+726463]\n\tOrdinal0 [0x00887534+881972]\n\tOrdinal0 [0x0089B56A+963946]\n\tOrdinal0 [0x00887136+880950]\n\tOrdinal0 [0x0085FEFD+720637]\n\tOrdinal0 [0x00860F3F+724799]\n\tGetHandleVerifier [0x00C5EED2+2769538]\n\tGetHandleVerifier [0x00C50D95+2711877]\n\tGetHandleVerifier [0x00A3A03A+521194]\n\tGetHandleVerifier [0x00A38DA0+516432]\n\tOrdinal0 [0x0094682C+1665068]\n\tOrdinal0 [0x0094B128+1683752]\n\tOrdinal0 [0x0094B215+1683989]\n\tOrdinal0 [0x00956484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672227652104,
+        "stop" : 1672227653189,
+        "duration" : 1085
+      }
+    }, {
+      "uid" : "99a754a0c7607a05",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/99a754a0c7607a05",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-gpa-c1=\"\" href=\"/common/profile\">...</a> is not clickable at point (1155, 27). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" style=\"display: block;\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D31499+791705]\n\tOrdinal0 [0x00D2F4AC+783532]\n\tOrdinal0 [0x00D2D0AB+774315]\n\tOrdinal0 [0x00D2BD37+769335]\n\tOrdinal0 [0x00D21C76+728182]\n\tOrdinal0 [0x00D4731C+881436]\n\tOrdinal0 [0x00D215BF+726463]\n\tOrdinal0 [0x00D47534+881972]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672063049441,
+        "stop" : 1672063050533,
+        "duration" : 1092
+      }
+    }, {
+      "uid" : "97860a176c9e52e3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-ihy-c1=\"\" href=\"/common/profile\">...</a> is not clickable at point (1146, 27). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" style=\"display: block;\" aria-modal=\"true\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D31499+791705]\n\tOrdinal0 [0x00D2F4AC+783532]\n\tOrdinal0 [0x00D2D0AB+774315]\n\tOrdinal0 [0x00D2BD37+769335]\n\tOrdinal0 [0x00D21C76+728182]\n\tOrdinal0 [0x00D4731C+881436]\n\tOrdinal0 [0x00D215BF+726463]\n\tOrdinal0 [0x00D47534+881972]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060856733,
+        "stop" : 1672060857828,
+        "duration" : 1095
+      }
+    }, {
+      "uid" : "4439a26566b6353e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879910765,
+        "stop" : 1671879911036,
+        "duration" : 271
+      }
+    } ]
+  },
+  "df687b57484ff1502059c5ce78de9c40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "e6738d1b75a85c9d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e6738d1b75a85c9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227528433,
+        "stop" : 1672227528453,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "a50869712cf9beb7",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a50869712cf9beb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062926262,
+        "stop" : 1672062926282,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "62e1b830763d89be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060680313,
+        "stop" : 1672060680334,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "f694f05b95657247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879774914,
+        "stop" : 1671879774954,
+        "duration" : 40
+      }
+    } ]
+  },
+  "de8ab40741be059f5f15f4bc3a74df94" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "182d806023b131da",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/182d806023b131da",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672227611541,
+        "stop" : 1672227632023,
+        "duration" : 20482
+      }
+    }, {
+      "uid" : "9635a3d64da72b53",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9635a3d64da72b53",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672063009294,
+        "stop" : 1672063029748,
+        "duration" : 20454
+      }
+    }, {
+      "uid" : "5462dea49f5f8e15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060762951,
+        "stop" : 1672060766473,
+        "duration" : 3522
+      }
+    }, {
+      "uid" : "13e2c786de720f52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879876819,
+        "stop" : 1671879892913,
+        "duration" : 16094
+      }
+    } ]
+  },
+  "1f7228099bdb4437810d19d35bcfbaf5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "a683e0005b2f52e1",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a683e0005b2f52e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227644785,
+        "stop" : 1672227646863,
+        "duration" : 2078
+      }
+    }, {
+      "uid" : "c2dbf550933b0d17",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c2dbf550933b0d17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063042086,
+        "stop" : 1672063044180,
+        "duration" : 2094
+      }
+    }, {
+      "uid" : "3719b701f292d650",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-ihy-c1=\"\" href=\"javascript:void(0);\" id=\"edit_team_header\">...</a> is not clickable at point (744, 27). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" style=\"display: block;\" aria-modal=\"true\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D31499+791705]\n\tOrdinal0 [0x00D2F4AC+783532]\n\tOrdinal0 [0x00D2D0AB+774315]\n\tOrdinal0 [0x00D2BD37+769335]\n\tOrdinal0 [0x00D21C76+728182]\n\tOrdinal0 [0x00D4731C+881436]\n\tOrdinal0 [0x00D215BF+726463]\n\tOrdinal0 [0x00D47534+881972]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060814277,
+        "stop" : 1672060815384,
+        "duration" : 1107
+      }
+    }, {
+      "uid" : "dc06ed0a46566331",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879903332,
+        "stop" : 1671879905437,
+        "duration" : 2105
+      }
+    } ]
+  },
+  "7b05424c4da73bc78a86fdd1f3abf9ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "a8caacf8a8399562",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a8caacf8a8399562",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227590058,
+        "stop" : 1672227598429,
+        "duration" : 8371
+      }
+    }, {
+      "uid" : "98f1fb13cd282068",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/98f1fb13cd282068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062987898,
+        "stop" : 1672062996282,
+        "duration" : 8384
+      }
+    }, {
+      "uid" : "96badbda8b5df138",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060741906,
+        "stop" : 1672060750303,
+        "duration" : 8397
+      }
+    }, {
+      "uid" : "7ca8c64f0aa2eb5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879837773,
+        "stop" : 1671879846346,
+        "duration" : 8573
+      }
+    } ]
+  },
+  "95739855e80d354ac3ec366bb1be699b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "4a948237b0bc0f64",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4a948237b0bc0f64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227600229,
+        "stop" : 1672227606252,
+        "duration" : 6023
+      }
+    }, {
+      "uid" : "1065cf2a3abd49d9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1065cf2a3abd49d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062997998,
+        "stop" : 1672063004013,
+        "duration" : 6015
+      }
+    }, {
+      "uid" : "6cd41e66333ee139",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060751623,
+        "stop" : 1672060757644,
+        "duration" : 6021
+      }
+    }, {
+      "uid" : "e720d90fe1726b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879846363,
+        "stop" : 1671879852399,
+        "duration" : 6036
+      }
+    } ]
+  },
+  "51f1e3e4ba6e98b86df04ceac22afd13" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "987f2c43678d08d5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/987f2c43678d08d5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672227634395,
+        "stop" : 1672227634778,
+        "duration" : 383
+      }
+    }, {
+      "uid" : "ac8372182939d047",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ac8372182939d047",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672063031677,
+        "stop" : 1672063032067,
+        "duration" : 390
+      }
+    }, {
+      "uid" : "aa07cba8ef18d624",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672060769038,
+        "stop" : 1672060769422,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "c0c2a0c61ac9be47",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1671879894232,
+        "stop" : 1671879894691,
+        "duration" : 459
+      }
+    } ]
+  },
+  "dfe272bff1883d67a75d6e310b8fe751" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "ab009bcda5d51c9c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ab009bcda5d51c9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227484575,
+        "stop" : 1672227487653,
+        "duration" : 3078
+      }
+    }, {
+      "uid" : "9546c2e73e0640af",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9546c2e73e0640af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062882153,
+        "stop" : 1672062885287,
+        "duration" : 3134
+      }
+    }, {
+      "uid" : "247df4019f680345",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060636501,
+        "stop" : 1672060639606,
+        "duration" : 3105
+      }
+    }, {
+      "uid" : "e7170898508a9b1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879733607,
+        "stop" : 1671879733728,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "827f7da1cd40b341",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457095103,
+        "stop" : 1671457095104,
+        "duration" : 1
+      }
+    } ]
+  },
+  "989600315a7af25df9d104001a065934" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "606e4d3b7c2042f1",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/606e4d3b7c2042f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227526234,
+        "stop" : 1672227527308,
+        "duration" : 1074
+      }
+    }, {
+      "uid" : "141cecb63932933f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/141cecb63932933f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062924069,
+        "stop" : 1672062925121,
+        "duration" : 1052
+      }
+    }, {
+      "uid" : "f1ed2718402a6710",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060678128,
+        "stop" : 1672060679166,
+        "duration" : 1038
+      }
+    }, {
+      "uid" : "cf75fe50c4dd5cc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879772562,
+        "stop" : 1671879773679,
+        "duration" : 1117
+      }
+    } ]
+  },
+  "965482a0d226b235b6e4faca8661d396" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "6d3e4d69fc6b4c5e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6d3e4d69fc6b4c5e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672227598443,
+        "stop" : 1672227599799,
+        "duration" : 1356
+      }
+    }, {
+      "uid" : "e0bee51766331b7b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e0bee51766331b7b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672062996291,
+        "stop" : 1672062997639,
+        "duration" : 1348
+      }
+    }, {
+      "uid" : "128bb2fc94a3f7da",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672060750318,
+        "stop" : 1672060751593,
+        "duration" : 1275
+      }
+    } ]
+  },
+  "510f80cbbcee3f3bc8c521913579c381" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "618cea8619d4bd66",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/618cea8619d4bd66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227642696,
+        "stop" : 1672227642705,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "a1c927bb92e8f464",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a1c927bb92e8f464",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063039981,
+        "stop" : 1672063039992,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "d137269533cf0272",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672060773853,
+        "stop" : 1672060794119,
+        "duration" : 20266
+      }
+    }, {
+      "uid" : "89e00579bbbdb35b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879901189,
+        "stop" : 1671879901204,
+        "duration" : 15
+      }
+    } ]
+  },
+  "49e00baab30cc41a3fd719d6b0d22a19" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "fac4d0faeb1f1249",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/fac4d0faeb1f1249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227634369,
+        "stop" : 1672227634388,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "c3a562ac9fd3dc3c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c3a562ac9fd3dc3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063031648,
+        "stop" : 1672063031670,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "c11eb256fe7d1a28",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1672060768617,
+        "stop" : 1672060768999,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "78cf197f38e4bd6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1671879893759,
+        "stop" : 1671879894181,
+        "duration" : 422
+      }
+    } ]
+  },
+  "898fa44e063de5535559c130078ab4c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "2c303d0aaea7dd04",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2c303d0aaea7dd04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227606261,
+        "stop" : 1672227606278,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "3f34c79fca177be9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3f34c79fca177be9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063004021,
+        "stop" : 1672063004044,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "88787f0550fde07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060757652,
+        "stop" : 1672060757671,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "1c1bc48d642e59d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879852414,
+        "stop" : 1671879852451,
+        "duration" : 37
+      }
+    } ]
+  },
+  "fcd6812c36a4fff760e3f66233bdf170" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "21cc2e803ea9ea2b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/21cc2e803ea9ea2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227528460,
+        "stop" : 1672227529506,
+        "duration" : 1046
+      }
+    }, {
+      "uid" : "26694f4669b230f8",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/26694f4669b230f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062926292,
+        "stop" : 1672062927338,
+        "duration" : 1046
+      }
+    }, {
+      "uid" : "6a68d76f8be4ef9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060680344,
+        "stop" : 1672060681392,
+        "duration" : 1048
+      }
+    }, {
+      "uid" : "2b016a419297ad24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879774965,
+        "stop" : 1671879776051,
+        "duration" : 1086
+      }
+    } ]
+  },
+  "17e7ff9530a3f33ffa9ed18ecf13f797" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "4e70cb219693beca",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4e70cb219693beca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227487661,
+        "stop" : 1672227510100,
+        "duration" : 22439
+      }
+    }, {
+      "uid" : "10e46f0cc96aa2c7",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/10e46f0cc96aa2c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062885302,
+        "stop" : 1672062907954,
+        "duration" : 22652
+      }
+    }, {
+      "uid" : "e3676527094ff2b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060639614,
+        "stop" : 1672060661987,
+        "duration" : 22373
+      }
+    }, {
+      "uid" : "f7f883f1e424d5fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879733739,
+        "stop" : 1671879756374,
+        "duration" : 22635
+      }
+    }, {
+      "uid" : "5146f4d5e75a8eee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00BFACD3+2075859]\n\tOrdinal0 [0x00B8EE61+1633889]\n\tOrdinal0 [0x00A8B7BD+571325]\n\tOrdinal0 [0x00A72E1A+470554]\n\tOrdinal0 [0x00ADAA0B+895499]\n\tOrdinal0 [0x00AEAC96+961686]\n\tOrdinal0 [0x00AD7136+880950]\n\tOrdinal0 [0x00AAFEFD+720637]\n\tOrdinal0 [0x00AB0F3F+724799]\n\tGetHandleVerifier [0x00EAEED2+2769538]\n\tGetHandleVerifier [0x00EA0D95+2711877]\n\tGetHandleVerifier [0x00C8A03A+521194]\n\tGetHandleVerifier [0x00C88DA0+516432]\n\tOrdinal0 [0x00B9682C+1665068]\n\tOrdinal0 [0x00B9B128+1683752]\n\tOrdinal0 [0x00B9B215+1683989]\n\tOrdinal0 [0x00BA6484+1729668]\n\tBaseThreadInitThunk [0x74F2FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47B8E+238]",
+      "time" : {
+        "start" : 1671457095142,
+        "stop" : 1671457095144,
+        "duration" : 2
+      }
+    } ]
+  },
+  "7dcef38a1654c4f78fc933050806dac8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "f8f2f6851928e95",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f8f2f6851928e95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227572335,
+        "stop" : 1672227574393,
+        "duration" : 2058
+      }
+    }, {
+      "uid" : "6dee64739474a51d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6dee64739474a51d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062970132,
+        "stop" : 1672062972210,
+        "duration" : 2078
+      }
+    }, {
+      "uid" : "a7132e6a09bb28c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060724138,
+        "stop" : 1672060726240,
+        "duration" : 2102
+      }
+    }, {
+      "uid" : "9365f67a4bed8ae4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879819583,
+        "stop" : 1671879821811,
+        "duration" : 2228
+      }
+    } ]
+  },
+  "649ba3ed4acf9b54999f49198d2394e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "47ed45e6cf267e8f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/47ed45e6cf267e8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227640623,
+        "stop" : 1672227642688,
+        "duration" : 2065
+      }
+    }, {
+      "uid" : "56b0c6113a83e2de",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/56b0c6113a83e2de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672063037893,
+        "stop" : 1672063039969,
+        "duration" : 2076
+      }
+    }, {
+      "uid" : "3220113e8f1d0b54",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a _ngcontent-ihy-c2=\"\" href=\"/terms-and-conditions\">...</a> is not clickable at point (419, 690). Other element would receive the click: <modal-container class=\"modal fade show\" role=\"dialog\" tabindex=\"-1\" style=\"display: block;\" aria-modal=\"true\">...</modal-container>\n  (Session info: chrome=108.0.5359.125)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00E6ACD3+2075859]\n\tOrdinal0 [0x00DFEE61+1633889]\n\tOrdinal0 [0x00CFB7BD+571325]\n\tOrdinal0 [0x00D31499+791705]\n\tOrdinal0 [0x00D2F4AC+783532]\n\tOrdinal0 [0x00D2D0AB+774315]\n\tOrdinal0 [0x00D2BD37+769335]\n\tOrdinal0 [0x00D21C76+728182]\n\tOrdinal0 [0x00D4731C+881436]\n\tOrdinal0 [0x00D215BF+726463]\n\tOrdinal0 [0x00D47534+881972]\n\tOrdinal0 [0x00D5B56A+963946]\n\tOrdinal0 [0x00D47136+880950]\n\tOrdinal0 [0x00D1FEFD+720637]\n\tOrdinal0 [0x00D20F3F+724799]\n\tGetHandleVerifier [0x0111EED2+2769538]\n\tGetHandleVerifier [0x01110D95+2711877]\n\tGetHandleVerifier [0x00EFA03A+521194]\n\tGetHandleVerifier [0x00EF8DA0+516432]\n\tOrdinal0 [0x00E0682C+1665068]\n\tOrdinal0 [0x00E0B128+1683752]\n\tOrdinal0 [0x00E0B215+1683989]\n\tOrdinal0 [0x00E16484+1729668]\n\tBaseThreadInitThunk [0x764C00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77007BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77007B8E+238]",
+      "time" : {
+        "start" : 1672060772717,
+        "stop" : 1672060773804,
+        "duration" : 1087
+      }
+    }, {
+      "uid" : "3801d1d48d246223",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879899082,
+        "stop" : 1671879901172,
+        "duration" : 2090
+      }
+    } ]
+  },
+  "65c7f10ed1e23d21077092ea85e3641e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "256d11dad5b3344b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/256d11dad5b3344b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227579603,
+        "stop" : 1672227584864,
+        "duration" : 5261
+      }
+    }, {
+      "uid" : "f043471160f5ac0b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f043471160f5ac0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062977446,
+        "stop" : 1672062982696,
+        "duration" : 5250
+      }
+    }, {
+      "uid" : "1d81d4d5c64a7074",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060731480,
+        "stop" : 1672060736732,
+        "duration" : 5252
+      }
+    }, {
+      "uid" : "8575487e8e6f0160",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879827168,
+        "stop" : 1671879832461,
+        "duration" : 5293
+      }
+    } ]
+  },
+  "d90538050759fb3289d8dc95909395a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "676f5d5c74b2e96b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/676f5d5c74b2e96b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672227527316,
+        "stop" : 1672227527335,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "b2c6a77ff0365e43",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b2c6a77ff0365e43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672062925135,
+        "stop" : 1672062925154,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "6c65ba36f053a600",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672060679176,
+        "stop" : 1672060679196,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "2ac400d2afdd42e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671879773699,
+        "stop" : 1671879773746,
+        "duration" : 47
+      }
+    } ]
+  }
+}
