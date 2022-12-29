@@ -203,7 +203,7 @@ class fe_Sections:
     leaguenamesx3 = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div[2]"
     '''League name in my league page'''
 
-    teamdetailsx = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[2]"
+    teamdetailsx = "//*[@id='wrapper']/div/app-my-league/section/div/div/div[2]/div/div[2]/div[1]/div[1]/div[3]/"
     '''Team Detail drop down which appear after clicking on the arrow button'''
 
     totalscoreinfosx = "/html/body/modal-container/div/div/div"
@@ -227,7 +227,7 @@ class fe_Sections:
     username2sx = "//*[@id='wrapper']/div/app-profile/section/div/div[2]/div/div[2]/div[1]/div/h3"
     '''user name in the user profile page'''
 
-    DOBsx = "//*[@id='wrapper']/div/app-profile/section/div/div[2]/div/div[2]/div[1]/div/h3"
+    DOBsx = "//*[@id='wrapper']/div/app-profile/section/div/div[2]/div/div[2]/div[2]/div/h3"
     '''user dob in user profile section'''
 
     useremailsx = "//*[@id='wrapper']/div/app-profile/section/div/div[2]/div/div[2]/div[1]/div/h3"

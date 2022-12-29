@@ -3,6 +3,7 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import NoSuchElementException
+from Pagelement.fe_Page_Objects import fe_Objects
 import allure
 from allure_commons.types import AttachmentType
 
@@ -71,3 +72,10 @@ class fe_actions:
             else:
                 assert True
 
+    def enteruserdetail(self,username,useremail,usernumber,usercity):
+        self.driver.find_element(By.XPATH, fe_Objects.udnameinput).send_keys(username)
+        self.driver.find_element(By.XPATH, fe_Objects.udmobileinout).send_keys(usernumber)
+        self.driver.find_element(By.XPATH, fe_Objects.udemailaddress).send_keys(useremail)
+        self.driver.find_element(By.XPATH, fe_Objects.udcity).send_keys(usercity)
+        time.sleep(1)
+        self.driver.find_element(By.XPATH, fe_Objects.udsubmitbutton).click()

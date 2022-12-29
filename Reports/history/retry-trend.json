@@ -1,0 +1,23 @@
+[ {
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "run" : 52,
+    "retry" : 0
+  }
+}, {
+  "data" : {
+    "run" : 52,
+    "retry" : 0
+  }
+}, {
+  "data" : {
+    "run" : 51,
+    "retry" : 1
+  }
+}, {
+  "data" : {
+    "run" : 13,
+    "retry" : 0
+  }
+} ]
